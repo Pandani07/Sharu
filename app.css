@@ -2,21 +2,80 @@ body{
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: #0b1522;
+    background: linear-gradient( #facdd5, #ffebf3);
+    color: #93021d; /* Dark text color */
+    /* background-color: #e1aec5; */
 }
 
+.main-div{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100%;
+  min-width: 100%;
+  flex-direction: column;
+}
+
+.header{
+    position: relative;
+    top: -100px;
+}
+
+.birthday-message{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    
+  padding: 20px;
+  background-color: #fff0f9; /* Yellow background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #facdd5; /* Dark text color */
+  font-size: 30px;
+  text-shadow: -1px -1px 0 rgb(255, 145, 176), 1px -1px 0 rgb(255, 145, 176), -1px 1px 0 rgb(255, 145, 176), 1px 1px 0 rgb(255, 145, 176);
+
+}
+
+.avatar{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    border: 1px solid #facdd5;
+    color:white;
+    background:white;
+    margin: 0 auto;
+    z-index: 1;
+    transform: translateY(-37px);
+}
 
 .heart{
-    height: 70px;
-    width: 70px;
-    background-color: #f20044;
-    position: relative;
+    height: 20px;
+    width: 20px;
+    float: left;
+    background-color: #fe3b72;
     transform: rotate(-45deg);
-    box-shadow: -10px 10px 90px #f20044;
+    box-shadow: -1px 1px 9px #fe3b72;
     animation: heart 0.6s linear infinite;
+    bottom: 5;
+}
+
+.heart2{
+    height: 20px;
+    width: 20px;
+    float: right;
+    position: relative;
+    background-color: #fe3b72;
+    transform: rotate(-45deg);
+    box-shadow: -1px 1px 9px #fe3b72;
+    animation: heart2 0.6s linear infinite;
 }
 
 @keyframes heart {
@@ -33,22 +92,59 @@ body{
 
 .heart:before{  
     content: '';
+    
     position: absolute;
-    height: 70px;
-    width: 70px;
-    background: #f20044;
+    height: 20px;
+    width: 20px;
+    background: #fe3b72;
     top: -50%;
-    box-shadow: -10px -10px 90px #f20044;
+    box-shadow: -1px -1px 9px #fe3b72;
     border-radius: 50px;
 }
 
 .heart:after{
     content: '';
     position: absolute;
-    height: 70px;
-    width: 70px;
-    background: #f20044;
+    height: 20px;
+    width: 20px;
+    background: #fe3b72;
     right: -50%;
     border-radius: 50px;
-    box-shadow: 10px 10px 90px #f20044;
+    box-shadow: 1px 1px 9px #fe3b72;
+}
+
+
+@keyframes heart2 {
+    0%{
+        transform: rotate(-45deg) scale(1.07); 
+    }
+    80%{
+        transform: rotate(-45deg) scale(1); 
+    }
+    100%{
+        transform: rotate(-45deg) scale(0.8); 
+    }
+}
+
+.heart2:before{  
+    content: '';
+    
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #fe3b72;
+    top: -50%;
+    box-shadow: -1px -1px 9px #fe3b72;
+    border-radius: 50px;
+}
+
+.heart2:after{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #fe3b72;
+    right: -50%;
+    border-radius: 50px;
+    box-shadow: 1px 1px 9px #fe3b72;
 }
