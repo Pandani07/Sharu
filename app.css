@@ -18,7 +18,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    
     overflow-y: auto;
 }
 
@@ -203,9 +203,16 @@ nav{
   width: 27%;
 }
 
+.Sindhu{
+  max-width: 42%;
+  width: 40%;
+  height: 35%;
+  max-height: 40%;
+}
+
 .Bala{
-  max-width:60%;
-  width: 57%;
+  max-width: 42%;
+  width: 40%;
   height: 35%;
   max-height: 40%;
 }
