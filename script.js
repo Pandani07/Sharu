@@ -58,8 +58,7 @@ const messages = [
     sender:"Amit",
     text: "The best thing about sharanya is her go-get nature, she’s a focused person which is very admirable. From when I saw her in Ramaiah to working in a clinic she has been the same driven person working for better things. <br><br>Happy birthday Sharanya 🩵, hope you achieve your goals you have set for yourself. Own that personality 🫡 Warm regards, Your Biter Friend 😁"
   },
- 
-  
+
   {
     sender: "Sindhu",
     text: "Hey Panni 🐷 happy SHARU day!! 🎊🥳 My always positive radiant glowing light! Mature, sassy and good sense of humor - thats Sharu. All 3 unexpected qualities for our cousin clan 😂 I can’t imagine to live without you…cheers to our gossip sesh, life changing stories, inside jokes, and seeing you grow to this beautiful, resilient woman! <br><br>I am veryy proud of everything you do. You are my baby sister and will always be ❤️ ( though you have never felt I am elder to you 😜) Happyy birthday and I love you 😘",
@@ -74,10 +73,11 @@ const messages = [
   },
   {
     sender: "Nikhil",
-    text: ""
+    text: "As a friend i feel Sharanya is very goal oriented and hard working which is one of the best things about her , I wish I could have that  🙈"
   },
   {
-    sender: "Anirudh"
+    sender: "Anirudh",
+    text: "Sharanya is one of kindest and most genuine people I have ever known. She cares a lot about the people is close to and I am super glad to have her in my life. She's hardworking, determined and funny, and she makes me a better person everday"
   }
 
 ];
