@@ -54,7 +54,8 @@ nav{
     width: 50%;
     box-sizing: border-box;
     margin: 2%;
-    border: 1px solid black;
+    border-radius: 3%;
+    background-color: #fff0f9;
 }
 
 .main-div{
@@ -81,6 +82,14 @@ nav{
   font-size: 30px;
   text-shadow: -1px -1px 0 rgb(255, 145, 176), 1px -1px 0 rgb(255, 145, 176), -1px 1px 0 rgb(255, 145, 176), 1px 1px 0 rgb(255, 145, 176);
 
+}
+
+.wish{
+  padding: 3%;
+  text-align: justify;
+  text-justify: inter-word;
+  font-weight: 400;
+  letter-spacing: 1%;
 }
 
 .avatar{
@@ -139,8 +148,6 @@ nav{
   flex-wrap: wrap;
   overflow-x: hidden;
   overflow-y: auto;
-
-  
 }
 
 .message-card {
@@ -158,6 +165,56 @@ nav{
 
   text-align: justify;
   text-justify: inter-word;
+}
+
+
+.Sneha{
+  width: 30%;
+}
+
+.Vaishak{
+  width: 20%;
+}
+
+.Taylor{
+  width: 30%;
+}
+
+.Dhruthick{
+  width: 20%;
+}
+
+.Brynn{
+  width: 33%;
+}
+
+.Jenn{
+  width: 42%;
+  max-width: 45%;
+}
+
+.Shishira{
+  max-width: 45%;
+  width: 42%;
+}
+
+.Hannah{
+  width: 27%;
+}
+
+.Bala{
+  max-width:60%;
+  width: 57%;
+  height: 35%;
+  max-height: 40%;
+}
+
+.Karthik{
+  width: 20%;
+}
+
+.Shashank{
+  width: 30%;
 }
 
 .message-card h3 {

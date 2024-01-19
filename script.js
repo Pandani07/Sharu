@@ -59,14 +59,8 @@ const messages = [
     text: "The best thing about sharanya is her go-get nature, she’s a focused person which is very admirable. From when I saw her in Ramaiah to working in a clinic she has been the same driven person working for better things. <br><br>Happy birthday Sharanya 🩵, hope you achieve your goals you have set for yourself. Own that personality 🫡 Warm regards, Your Biter Friend 😁"
   },
 
-  {
-    sender: "Sindhu",
-    text: "Hey Panni 🐷 happy SHARU day!! 🎊🥳 My always positive radiant glowing light! Mature, sassy and good sense of humor - thats Sharu. All 3 unexpected qualities for our cousin clan 😂 I can’t imagine to live without you…cheers to our gossip sesh, life changing stories, inside jokes, and seeing you grow to this beautiful, resilient woman! <br><br>I am veryy proud of everything you do. You are my baby sister and will always be ❤️ ( though you have never felt I am elder to you 😜) Happyy birthday and I love you 😘",
-  },
-  {
-    sender: "Bala",
-    text: "It's difficult to ask someone to describe the best thing about their best friend. Because everything about Sharanya is the best. She's kind, independent, empathetic but stands up for herself and so much more. I am truly lucky to have met her and to grow up with her because I can see just how far she's come and I'm so proud of her. :) <br><br> I love you, Sharu. I know we grew up reading numerous books and watching countless romcoms that had a Happily Ever After and Greatest Love Story, but having you in my life, unflinchingly in my corner makes me think that our friendship is no less than the romance in these stories. And we can be like Lilly and Mia as we live out our own happily ever afters. ❣️ <br><br> Cannot wait to see you again and I miss you. 😭❤️ Loads and loads of love as you turn 25, and officially become a fully grown adult with a fully developed prefrontal cortex. ❤️❤️❤️"
-  },
+  
+  
   {
     sender: "Shravya",
     text: "I think growing up with her... The best things about her are that she's never too quick to judge... And frank about most things ❤️"
@@ -76,9 +70,17 @@ const messages = [
     text: "As a friend i feel Sharanya is very goal oriented and hard working which is one of the best things about her , I wish I could have that  🙈"
   },
   {
+    sender: "Sindhu",
+    text: "Hey Panni 🐷 happy SHARU day!! 🎊🥳 My always positive radiant glowing light! Mature, sassy and good sense of humor - thats Sharu. All 3 unexpected qualities for our cousin clan 😂 I can’t imagine to live without you…cheers to our gossip sesh, life changing stories, inside jokes, and seeing you grow to this beautiful, resilient woman! <br><br>I am veryy proud of everything you do. You are my baby sister and will always be ❤️ ( though you have never felt I am elder to you 😜) Happyy birthday and I love you 😘",
+  },
+  {
     sender: "Anirudh",
     text: "Sharanya is one of kindest and most genuine people I have ever known. She cares a lot about the people is close to and I am super glad to have her in my life. She's hardworking, determined and funny, and she makes me a better person everday"
-  }
+  },
+  {
+    sender: "Bala",
+    text: "It's difficult to ask someone to describe the best thing about their best friend. Because everything about Sharanya is the best. She's kind, independent, empathetic but stands up for herself and so much more. I am truly lucky to have met her and to grow up with her because I can see just how far she's come and I'm so proud of her. :) <br><br> I love you, Sharu. I know we grew up reading numerous books and watching countless romcoms that had a Happily Ever After and Greatest Love Story, but having you in my life, unflinchingly in my corner makes me think that our friendship is no less than the romance in these stories. And we can be like Lilly and Mia as we live out our own happily ever afters. ❣️ <br><br> Cannot wait to see you again and I miss you. 😭❤️ Loads and loads of love as you turn 25, and officially become a fully grown adult with a fully developed prefrontal cortex. ❤️❤️❤️"
+  },
 
 ];
 
@@ -88,7 +90,7 @@ window.onload = function printmessages() {
   const showInHTML = messages
     .map((message, index) => {
       return `
-            <div class="message-card">
+            <div class="message-card ${message.sender}">
                     
                     <p>${message.text}</p>
                     <p class="sender">${message.sender}</p>
