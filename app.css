@@ -375,6 +375,10 @@ nav {
     display: flex;
     flex-direction: column;
   }
+
+  .messages-div{
+    margin-top: 5%;
+  }
   
   
 }
