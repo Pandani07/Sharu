@@ -14,104 +14,6 @@ body {
   /* background-color: #e1aec5; */
 }
 
-@media screen and (max-width: 600px) {
-  .main {
-    margin-top: 5%;
-  }
-
-  .left .right {
-    margin: 5%;
-  }
-
-  .messages-div > div {
-    width: 100%; /* Make cards take up full width */
-    max-width: fit-content;
-  }
-
-  .gallery {
-    margin-top: 6rem;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .main {
-    margin-top: 5%;
-  }
-
-  .left .right {
-    margin: 5%;
-  }
-
-  .messages-div > div {
-    width: 100%; /* Make cards take up full width */
-    max-width: fit-content;
-  }
-
-  .gallery {
-    margin-top: 6rem;
-  }
-}
-
-@media (min-width: 740px){
-  .main {
-    margin-top: 4%;
-  }
-
-  .left .right {
-    margin: 5%;
-  }
-
-  .messages-div > div {
-    width: 100%; /* Make cards take up full width */
-    max-width: fit-content;
-  }
-
-  .gallery {
-    margin-top: 2rem;
-  }
-}
-
-@media (min-width: 595px) and (max-width: 740px) {
-  .main {
-    margin-top: 4%;
-  }
-
-  .left .right {
-    margin: 5%;
-  }
-
-  .messages-div > div {
-    width: 100%; /* Make cards take up full width */
-    max-width: fit-content;
-  }
-
-  .gallery {
-    margin-top: 4rem;
-  }
-}
-
-@media (max-width: 595px) {
-  .main {
-    margin-top: 4%;
-  }
-
-  .left .right {
-    margin: 5%;
-  }
-
-  .messages-div > div {
-    width: 100%; /* Make cards take up full width */
-    max-width: fit-content;
-  }
-
-  .gallery {
-    margin-top: 7rem;
-  }
-}
-
-
-
-
 
 .navbar-toggler {
   border-color: rgb(255, 152, 221);
@@ -169,10 +71,6 @@ nav {
   min-height: 100%;
   min-width: 100%;
   flex-direction: column;
-}
-
-.mobile{
-  display: none;
 }
 
 .birthday-message {
@@ -369,3 +267,118 @@ nav {
   font-size: 0.85rem;
   font-weight: 600;
 }
+
+.menu-bar-div{
+  margin-bottom: 4%;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    margin-top: 5%;
+  }
+
+  .left .right {
+    margin: 5%;
+  }
+  
+
+  .messages-div > div {
+    width: 100%; /* Make cards take up full width */
+    max-width: fit-content;
+  }
+
+  .gallery {
+    margin-top: 2rem;
+  }
+}
+
+
+
+@media (min-width: 595px) and (max-width: 740px) {
+  .main {
+    margin-top: 4%;
+  }
+
+  .left .right {
+    margin: 5%;
+  }
+
+  .messages-div > div {
+    width: 100%; /* Make cards take up full width */
+    max-width: fit-content;
+  }
+
+  .gallery {
+    margin-top: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 585px) {
+  .menu-bar-div{
+    margin-bottom: 9%;
+  }
+  .main {
+    margin-top: 5%;
+  }
+  .total{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .right{
+    margin: 4%;
+    padding: 2%;
+    width: 90%;
+  }
+
+  .content{
+    align-items: center;
+    flex-direction: column;    
+    height: fit-content;
+  }
+
+  .right .left{
+    box-sizing: border-box;
+  }
+
+  .left{
+    width: 100%;
+  }
+
+  .main-div{
+    width: 100%;
+  }
+  .header{
+    width: 90%;
+    height: fit-content;
+  }
+
+  .avatar{
+    margin-top:8%;
+    height: 25vh;
+    width: 25vh;
+  }
+
+  .left .right{
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .messages-div > div {
+    width: 100%; /* Make cards take up full width */
+    max-width: fit-content;
+  }
+
+  .gallery{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+}
+
+
+
+
