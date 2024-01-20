@@ -169,24 +169,41 @@ nav{
 }
 
 
-.Sneha{
-  width: 30%;
+.Karthik{
+  width: 20%;
+}
+
+.Shashank{
+  width: 28%;
 }
 
 .Vaishak{
   width: 20%;
 }
 
+.Sindhu{
+ max-width: 65%;
+ width: 60%;
+  height: 35%;
+  max-height: 40%;
+}
+
+
 .Taylor{
-  width: 30%;
+  width: 31%;
 }
 
 .Dhruthick{
-  width: 20%;
+  width: 25%;
+}
+
+.Ditha{
+  width: 33%;
+
 }
 
 .Brynn{
-  width: 33%;
+  width: 31%;
 }
 
 .Jenn{
@@ -203,27 +220,14 @@ nav{
   width: 27%;
 }
 
-.Sindhu{
-  max-width: 42%;
-  width: 40%;
-  height: 35%;
-  max-height: 40%;
-}
-
 .Bala{
-  max-width: 42%;
-  width: 40%;
+  width: 55%;
+  max-width: 55%;
   height: 35%;
   max-height: 40%;
 }
 
-.Karthik{
-  width: 20%;
-}
 
-.Shashank{
-  width: 30%;
-}
 
 .message-card h3 {
   margin-top: 0;
