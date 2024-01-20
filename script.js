@@ -19,7 +19,10 @@ const messages = [
     sender: "Sindhu",
     text: "Hey Panni 🐷 happy SHARU day!! 🎊🥳 My always positive radiant glowing light! Mature, sassy and good sense of humor - thats Sharu. All 3 unexpected qualities for our cousin clan 😂 I can’t imagine to live without you…cheers to our gossip sesh, life changing stories, inside jokes, and seeing you grow to this beautiful, resilient woman! <br><br>I am veryy proud of everything you do. You are my baby sister and will always be ❤️ ( though you have never felt I am elder to you 😜) Happyy birthday and I love you 😘",
   },
-  
+  {
+    sender: "Priya",
+    text: "Shine on dear cousin!"
+  },
   {
     sender: "Karthik",
     text: "She is a genuine and caring person"
@@ -66,7 +69,7 @@ const messages = [
   },
   {
     sender: "Pooa",
-    text: " I wish Sharanya many happy, healthy and prosperous returns of the day. Sharanya is such a nice homely loving girl with a golden heart who cares for family values, relationships.She’s a brave, focused girl. I admire her achievements facing all hardships in a foreign land. God bless her with long happy, healthy peaceful and prosperous life. Please convey my Best wishes to her. "
+    text: " I wish Sharanya many happy, healthy and prosperous returns of the day. I have known Sharanya for past 5-6 years and I am happy for Anu to have such a beautiful human being as partner. In the bugging I used to consider her as Anu’s one of the girl friends. Sharanya is such a nice homely loving girl with a golden heart who cares for family values, relationships.She’s a brave, focused girl. I admire her achievements facing all hardships in a foreign land. God bless her with long happy, healthy peaceful and prosperous life. Please convey my Best wishes to her. "
   },
   {
     sender: "Mahesh",
@@ -102,6 +105,10 @@ const messages = [
   {
     sender: "Raja",
     text: "Dear Counsellor. Wishing u a warm and fun filled birthday. You have a a great year with lots of interesting patients and more sightseeing.  Have fun, Raja"
+  },
+  {
+    sender: "Rajeev",
+    text: "So our bday wishes to this lovely looking girl whom I have seen from her childhood days, now pursuing her counselling career to make it best for her. Let u sail across this in your suitable way and come out with all flying colours...happy bday dear once again, love and kisses from us all..😘👏👍🏽"
   },
   {
     sender: "Bala",

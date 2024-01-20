@@ -14,6 +14,33 @@ body{
     /* background-color: #e1aec5; */
 }
 
+
+@media only screen and (max-width: 600px) { 
+
+  .main{
+    margin-top: 5%;
+  }
+
+  .left .right{
+    margin: 5%;
+  }
+  
+  .messages-div> div {
+    width: 100%; /* Make cards take up full width */
+    max-width: fit-content;
+  }
+
+  .gallery{
+    margin-top: 7rem;
+  }
+
+}
+
+
+.navbar-toggler{
+  border-color: rgb(255, 152, 221); background-color: #f8a1ba;
+}
+
 .main{
     display: flex;
     flex-direction: column;
@@ -29,6 +56,7 @@ body{
     height: 70vh;
 }
 
+
 nav{
     position: fixed;
     top: 0px;
@@ -38,6 +66,7 @@ nav{
     background-color: #fff0f9;
     
 }
+
 
 .nav-link{
     color: #fe3b72;
@@ -140,7 +169,7 @@ nav{
 }
 
 .messages-div{
-  width: 90%;
+  width: 95%;
   padding: 2%;
   margin: 2%;
   display: flex;
@@ -163,14 +192,21 @@ nav{
   height: 35%;
   max-height: fit-content;
   box-sizing: border-box;
-
+  padding: 2%;
   text-align: justify;
   text-justify: inter-word;
 }
 
+.Priya{
+  width: 18%;
+}
 
 .Karthik{
-  width: 20%;
+  width: 18%;
+}
+
+.Sarah{
+  width:20%
 }
 
 .Shashank{
@@ -236,8 +272,8 @@ nav{
 }
 
 .Bala{
-  width: 70%;
-  max-width: 70%;
+  width: 55%;
+  max-width: 55%;
   height: 35%;
   max-height: 40%;
 }
