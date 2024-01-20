@@ -94,7 +94,7 @@ const messages = [
   
   {
     sender: "Anirudh",
-    text: "Sharanya is one of kindest and most genuine people I have ever known. She cares a lot about the people is close to and I am super glad to have her in my life. She's hardworking, determined and funny, and she makes me a better person everday"
+    text: "Sharanya is one of kindest and most genuine people I have ever known. She cares a lot about the people she is close to and I'm super glad to have her in my life. She's hardworking, determined and funny, and she makes me a better person everday"
   },
   {
     sender: "Bala",
