@@ -77,7 +77,7 @@ const messages = [
   
   {
     sender:"Amarthya",
-    text: ""
+    text: "Every year, I usually have a bunch of resolutions that I never keep up with. Last year, my resolution was to drink more water. But one thing remains constant, and that’s to follow a rigid schedule (which I never do). I’ve always struggled with schedules, and I have always admired you for strongly adhering to your daily agendas, and I’ve always found that fascinating about you. Also, one of the fondest memories I have of yours is during our excursion to Pondicherry. We were at Eden Beach, I was on an elevated state of mind, and everyone were clicking pictures and living their moments to their fullest, while I was doodling half assed diagrams that made no sense. We had a brief conversation about your experiences in school, and you told me about how judgemental some people could be, and I really cherished that intimate conversation we had."
   },
   {
     sender:"Shishira",
