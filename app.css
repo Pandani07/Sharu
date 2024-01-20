@@ -202,28 +202,38 @@ nav{
 
 }
 
+.Pooa{
+  max-width: 30%;
+  width: 40%;
+}
+
 .Brynn{
   width: 31%;
 }
-
+.Shishira{
+  max-width: 25%;
+  width: 25%;
+}
 .Jenn{
-  width: 42%;
-  max-width: 45%;
+  width:25%;
+  max-width: 25%;
 }
 
 .Amit{
-  width: 42%;
-  max-width: 45%;
+  width: 30%;
+  max-width: 30%;
 }
 
-.Shishira{
-  max-width: 45%;
-  width: 42%;
+.Anirudh{
+  width: 27%;
+  max-width: 27%;
 }
+
+
 
 .Amarthya{
-  max-width: 45%;
-  width: 42%;
+  max-width: 52%;
+  width: 52%;
 }
 
 .Hannah{

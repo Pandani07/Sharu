@@ -29,9 +29,7 @@ const messages = [
     sender:"Vaishak",
     text: "Her presence Makes every moment brighter"
   },
- 
-  
-  
+
   {
     sender:"Sarah",
     text: "Sharanya is the most genuine person I know without a doubt, and will ALWAYS make time for you"
@@ -61,6 +59,10 @@ const messages = [
   {
     sender: "Rekha",
     text: "Hi Sharanya, happy 25 th!!God bless you with everything that you wish for! you are a very strong and well mannered girl. You are spontaneous and unpretentious. Stay as humble and grounded as you are. Your hardworking and independent nature will take you places."
+  },
+  {
+    sender: "Pooa",
+    text: " I wish Sharanya many happy, healthy and prosperous returns of the day. Sharanya is such a nice homely loving girl with a golden heart who cares for family values, relationships.She’s a brave, focused girl. I admire her achievements facing all hardships in a foreign land. God bless her with long happy, healthy peaceful and prosperous life. Please convey my Best wishes to her. "
   },
   {
     sender: "Mahesh",
