@@ -69,7 +69,7 @@ const messages = [
   },
   {
     sender: "Pooa",
-    text: " I wish Sharanya many happy, healthy and prosperous returns of the day. I have known Sharanya for past 5-6 years and I am happy for Anu to have such a beautiful human being as partner. In the bugging I used to consider her as Anu’s one of the girl friends. Sharanya is such a nice homely loving girl with a golden heart who cares for family values, relationships.She’s a brave, focused girl. I admire her achievements facing all hardships in a foreign land. God bless her with long happy, healthy peaceful and prosperous life. Please convey my Best wishes to her. "
+    text: " I wish Sharanya many happy, healthy and prosperous returns of the day. I have known Sharanya for past 5-6 years and I am happy for Anu to have such a beautiful human being as partner. Sharanya is such a nice homely loving girl with a golden heart who cares for family values, relationships. She’s a brave, focused girl. I admire her achievements facing all hardships in a foreign land. God bless her with long happy, healthy peaceful and prosperous life. Please convey my Best wishes to her. "
   },
   {
     sender: "Mahesh",
