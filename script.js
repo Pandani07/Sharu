@@ -57,6 +57,10 @@ const messages = [
     text: "Okay so the best part of Sharanya to me is that she is the most generous and caring friend. I know she would do anything to help or be there for the people she loves. She also gives the very best head rubs in the world!"
   },
   {
+    sender: "Shravya",
+    text: "I think growing up with her... The best things about her are that she's never too quick to judge... And frank about most things ❤️"
+  },
+  {
     sender: "Rekha",
     text: "Hi Sharanya, happy 25 th!!God bless you with everything that you wish for! you are a very strong and well mannered girl. You are spontaneous and unpretentious. Stay as humble and grounded as you are. Your hardworking and independent nature will take you places."
   },
@@ -68,10 +72,7 @@ const messages = [
     sender: "Mahesh",
     text: "Hi Sharanya happy 25th birthday! God bless ! You are a smart and independent girl … wishing u more and more success!"
   },
-  {
-    sender: "Shravya",
-    text: "I think growing up with her... The best things about her are that she's never too quick to judge... And frank about most things ❤️"
-  },
+  
   {
     sender:"Ditha",
     text: "I love how she brightens every room she walks in and how wonderful she is , I’m glad to have her in my life. The best thing about sharu is she’s there for me when I least expect it , it’s the smallest things like just checking up on me , she just knows how to make a person smile it comes to her very organically "
