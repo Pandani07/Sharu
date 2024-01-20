@@ -36,6 +36,46 @@ body{
 
 }
 
+@media (min-width:595px) and (max-width:740px) {
+  .main{
+    margin-top: 4%;
+  }
+
+  .left .right{
+    margin: 5%;
+  }
+  
+  .messages-div> div {
+    width: 100%; /* Make cards take up full width */
+    max-width: fit-content;
+  }
+
+  .gallery{
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) { 
+
+  .main{
+    margin-top: 6%;
+  }
+
+  .left .right{
+    margin: 6%;
+  }
+  
+  .messages-div> div {
+    width: 100%; /* Make cards take up full width */
+    max-width: fit-content;
+  }
+
+  .gallery{
+    margin-top: 7rem;
+  }
+
+}
+
 
 .navbar-toggler{
   border-color: rgb(255, 152, 221); background-color: #f8a1ba;
