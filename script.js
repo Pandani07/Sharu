@@ -100,6 +100,10 @@ const messages = [
     text: "Sharanya is one of kindest and most genuine people I have ever known. She cares a lot about the people she is close to and I'm super glad to have her in my life. She's hardworking, determined and funny, and she makes me a better person everday"
   },
   {
+    sender: "Raja",
+    text: "Dear Counsellor. Wishing u a warm and fun filled birthday. You have a a great year with lots of interesting patients and more sightseeing.  Have fun, Raja"
+  },
+  {
     sender: "Bala",
     text: "It's difficult to ask someone to describe the best thing about their best friend. Because everything about Sharanya is the best. She's kind, independent, empathetic but stands up for herself and so much more. I am truly lucky to have met her and to grow up with her because I can see just how far she's come and I'm so proud of her. :) <br><br> I love you, Sharu. I know we grew up reading numerous books and watching countless romcoms that had a Happily Ever After and Greatest Love Story, but having you in my life, unflinchingly in my corner makes me think that our friendship is no less than the romance in these stories. And we can be like Lilly and Mia as we live out our own happily ever afters. ❣️ <br><br> Cannot wait to see you again and I miss you. 😭❤️ Loads and loads of love as you turn 25, and officially become a fully grown adult with a fully developed prefrontal cortex. ❤️❤️❤️"
   },
